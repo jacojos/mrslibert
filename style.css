@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Vesper Libre', serif;
   line-height: 1.6;
-  color: #222;
-  background: #f7f4ef;
+  color: #d6e66c;
+  background: #000000;
 }
 
 .container {
@@ -16,8 +16,8 @@ body {
 }
 
 .site-header {
-  background: #ffffff;
-  border-bottom: 1px solid #ddd;
+  background: #000000;
+  border-bottom: 1px solid #d6e66c;
   padding: 18px 0;
 }
 
@@ -31,12 +31,14 @@ body {
 
 .logo {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
+  font-family: 'Petit Formal Script', cursive;
+  color: #d6e66c;
 }
 
 .tag {
   margin: 4px 0 0;
-  color: #555;
+  color: #d6e66c;
 }
 
 .nav-links {
@@ -50,12 +52,12 @@ body {
 
 .nav-links a,
 a {
-  color: #0a5c63;
+  color: #d6e66c;
   text-decoration: none;
 }
 
 .hero {
-  background: #dfeeed;
+  background: #111111;
   padding: 70px 0;
 }
 
@@ -69,7 +71,7 @@ a {
 }
 
 .eyebrow {
-  color: #0a5c63;
+  color: #d6e66c;
   font-weight: bold;
 }
 
@@ -82,16 +84,16 @@ a {
 
 .button {
   display: inline-block;
-  background: #0a5c63;
-  color: white;
+  background: #d6e66c;
+  color: #000000;
   padding: 12px 18px;
   border-radius: 8px;
 }
 
 .button-secondary {
-  background: white;
-  color: #0a5c63;
-  border: 2px solid #0a5c63;
+  background: #000000;
+  color: #d6e66c;
+  border: 2px solid #d6e66c;
 }
 
 .section {
@@ -99,7 +101,7 @@ a {
 }
 
 .alt {
-  background: #fff;
+  background: #111111;
 }
 
 .grid {
@@ -110,10 +112,11 @@ a {
 }
 
 .card {
-  background: white;
+  background: #111111;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(214, 230, 108, 0.15);
+  border: 1px solid #d6e66c;
 }
 
 .quote {
@@ -123,6 +126,20 @@ a {
 .phone a {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Petit Formal Script', cursive;
+  color: #d6e66c;
+}
+
+p,
+li,
+blockquote {
+  font-family: 'Vesper Libre', serif;
+  color: #d6e66c;
 }
 
 @media (max-width: 700px) {
